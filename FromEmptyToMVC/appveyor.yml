@@ -4,5 +4,5 @@ cache:
     - packages -> **\packages.config
 before_build: nuget restore
 build: 
-    project: E:\Programming\.NET\ASP.NET Core ITEA\Lesson_2\FromEmptyToMVC\FromEmptyToMVC.csproj
+    project: E:\Programming\.NET\AppVeyorHomeWork\FromEmptyToMVC\FromEmptyToMVC.csproj
     publish_wap: true
